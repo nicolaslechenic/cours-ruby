@@ -52,7 +52,7 @@ Ici notre château de sable ressemble à ça:
 
 Les infos concernent non plus les châteaux de sables mais une instance de cet ensemble avec ses propres propriétés !
 
-On peux appliquer toute sorte de méthodes sur notre instance, il suffit de stocker cette instance dans une variable à laquelle on appliquera nos méthodes:
+On peux appliquer toute sorte de méthodes sur notre instance, il suffit de stocker cette instance dans une variable sur laquelle on appliquera nos méthodes:
 
 ![image du dongeon de feu rouge](images/castle-instances-precision-2.png)
 
