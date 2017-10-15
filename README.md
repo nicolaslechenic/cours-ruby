@@ -8,7 +8,7 @@ Pour bien comprendre les méthodes de classe et les méthodes d'instances on peu
 
 ### Méthode de classe
 
-Dans ce premier exemple, nous allons utiliser une `méthode de classe` qui nous affichera la taille de château de sable que nous permet de réaliser un sceau. Cette méthode étant dépendante uniquement de la hauteur de ce sceau, aucun besoin de créer un château (instancier).
+Dans ce premier exemple, nous allons utiliser une `méthode de classe` qui nous affichera la taille des châteaux de sable que nous permet de réaliser un sceau. Cette méthode étant dépendante uniquement de la hauteur de ce sceau, aucun besoin de créer un château (instancier).
 
 ```ruby
 class ChateauSable
@@ -46,7 +46,7 @@ puts mon_chateau_rouge.infos
 
 ```
 
-Ici notre château de sable devrait ressembler à ça:
+Ici notre château de sable ressemble à ça:
 
 ![image du dongeon de feu rouge](images/instance-castle.jpg)
 
