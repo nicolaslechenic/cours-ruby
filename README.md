@@ -51,3 +51,31 @@ Ici notre château de sable ressemble à ça:
 ![image du dongeon de feu rouge](images/instance-castle.jpg)
 
 Les infos concernent non plus les châteaux de sables mais une instance de cet ensemble avec ses propres propriétés !
+
+On peux appliquer toute sorte de méthodes sur notre instance, il suffit de stocker cette instance dans une variable à laquelle on appliquera nos méthodes:
+
+![image du dongeon de feu rouge](images/castle-instances-precision.jpg)
+
+```ruby
+class ChateauSable
+    attr_accessor :nom, :couleur
+
+    def initialize(nom, couleur)
+        @nom = nom
+        @couleur = couleur
+    end
+
+    def infos
+        puts "Je viens de réaliser un beau château #{@couleur} appelé #{@nom}"
+    end
+
+    def est_rouge?
+        puts @couleur == 'rouge' ? 'Oui' : 'Non'
+    end
+end
+
+a = ChateauSable.new('dongeon rouge', 'rouge')
+puts a.infos
+puts a.est_rouge?
+
+```
