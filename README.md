@@ -29,15 +29,15 @@ Dans ce deuxième exemple nous souhaitons obtenir créer un château de sable et
 
 ```ruby
 class ChateauSable
-    attr_accessor :name, :color
+    attr_accessor :nom, :couleur
 
-    def initialize(name, color)
-        @name = name
-        @color = color
+    def initialize(nom, couleur)
+        @nom = nom
+        @couleur = couleur
     end
 
     def infos
-        puts "Je viens de réaliser un beau château #{@color} appelé #{@name}"
+        puts "Je viens de réaliser un beau château #{@couleur} appelé #{@nom}"
     end
 end
 
