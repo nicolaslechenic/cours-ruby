@@ -54,7 +54,7 @@ Les infos concernent non plus les châteaux de sables mais une instance de cet e
 
 On peux appliquer toute sorte de méthodes sur notre instance, il suffit de stocker cette instance dans une variable à laquelle on appliquera nos méthodes:
 
-![image du dongeon de feu rouge](images/castle-instances-precision.png)
+![image du dongeon de feu rouge](images/castle-instances-precision-2.png)
 
 #### Exemple complet:
 
