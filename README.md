@@ -56,6 +56,8 @@ On peux appliquer toute sorte de méthodes sur notre instance, il suffit de stoc
 
 ![image du dongeon de feu rouge](images/castle-instances-precision.png)
 
+#### Exemple complet:
+
 ```ruby
 class ChateauSable
     attr_accessor :nom, :couleur
