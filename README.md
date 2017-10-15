@@ -47,6 +47,7 @@ puts mon_chateau_rouge.infos
 ```
 
 Ici notre château de sable devrait ressembler à ça:
+
 ![image du dongeon de feu rouge](images/instance-castle.jpg)
 
 Les infos concernent non plus les châteaux de sables mais une instance de cet ensemble avec ses propres propriétés !
