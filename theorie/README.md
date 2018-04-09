@@ -1,6 +1,4 @@
-# cours-ruby
-
-## Methodes de classe et d'instance
+# Methodes de classe et d'instance
 
 Pour bien comprendre les méthodes de classe et les méthodes d'instances on peux se servir de l'exemple du château de sable:
 
@@ -21,11 +19,11 @@ puts ChateauSable.infos
 
 ```
 
-On applique donc la méthode `infos` sur l'objet `ChateauSable`. Ne pas oublier de préciser que notre méthode est une `méthode de classe` grâce au mot clé `self` devant `info`(`self.info`).  
+On applique donc la méthode `infos` sur l'objet `ChateauSable`. Ne pas oublier de préciser que notre méthode est une `méthode de classe` grâce au mot clé `self` devant `info`(`self.info`).
 
 ### Méthode d'instance
 
-Dans ce deuxième exemple nous souhaitons obtenir créer un château de sable et obtenir des infos sur celui-ci:
+Dans ce deuxième exemple nous souhaitons créer un château de sable et obtenir des infos sur celui-ci:
 
 ```ruby
 class ChateauSable
