@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'pry'
+gem 'shopify_api'
+gem 'thor'
+gem 'yard'
+
+group :test do
+  gem 'rspec'
+  gem 'rubocop', '~> 0.52.1', require: false
+  gem 'simplecov'
+end
