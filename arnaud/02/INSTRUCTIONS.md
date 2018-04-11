@@ -1,4 +1,4 @@
-# Exercice
+# Exos
 
 
 - Ajouter les tags associés à product
