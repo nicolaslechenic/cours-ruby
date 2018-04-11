@@ -11,4 +11,3 @@ ShopifyAPI::Base.site = url
 
 products = ShopifyAPI::Product.all
 
-binding.pry
