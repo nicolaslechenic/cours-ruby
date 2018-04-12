@@ -6,6 +6,8 @@ require_relative './lib/product'
 
 module Shopify
   # SIMULATE API ENDPOINT
-  GET_PRODUCTS  = JSON.parse(File.read('../api/get_products.json')).freeze
-  ERRORS        = YAML.load_file('./config/errors.yml').freeze
+  ROOT_PATH     = File.dirname(__FILE__)
+  API_PATH      = '../api'.freeze
+  GET_PRODUCTS  = JSON.parse(File.read("#{API_PATH}/get_products.json")).freeze
+  ERRORS        = YAML.load_file("#{ROOT_PATH}/config/errors.yml").freeze
 end
