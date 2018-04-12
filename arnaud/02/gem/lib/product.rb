@@ -32,17 +32,17 @@ module Shopify
     attr_accessor :id, :created_at, :published_at, :image, :title, :vendor, :price
 
     def initialize(product_hash)
-      # @id           = product_hash['id']
-      # @created_at   = product_hash['created_at']
-      # @published_at = product_hash['published_at']
-      # @image        = product_hash['image']
-      # @title        = product_hash['title']
-      # @vendor       = product_hash['vendor']
-      # @price        = product_hash['price']
+      @id           = product_hash['id']
+      @created_at   = product_hash['created_at']
+      @published_at = product_hash['published_at']
+      @image        = product_hash['image']
+      @title        = product_hash['title']
+      @vendor       = product_hash['vendor']
+      @price        = product_hash['price']
 
-      product_hash.each do |key, value|
-        instance_variable_set("@#{key}", value)
-      end
+      # product_hash.each do |key, value|
+      #   instance_variable_set("@#{key}", value)
+      # end
     end
   end
 end
