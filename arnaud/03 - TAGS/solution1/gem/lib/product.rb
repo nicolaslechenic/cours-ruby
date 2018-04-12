@@ -29,7 +29,7 @@ module Shopify
       end
     end
 
-    attr_accessor :id, :created_at, :published_at, :image, :title, :vendor, :price
+    attr_accessor :id, :created_at, :published_at, :image, :title, :vendor, :price, :tags
 
     def initialize(product_hash)
       product_hash.each do |key, value|
