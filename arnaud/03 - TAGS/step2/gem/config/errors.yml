@@ -1,0 +1,1 @@
+type: "No implicit conversion of %<current_type>s into %<expected_type>s for %<attr_name>s"
